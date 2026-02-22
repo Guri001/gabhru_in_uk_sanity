@@ -42,10 +42,10 @@ export default defineType({
     }),
 
     defineField({
-      name: 'pdf',
-      title: 'PDF Upload',
-      type: 'file',
-      options: {accept: '.pdf'},
+      name: 'pdfLink',
+      title: 'PDF Link (Google Drive)',
+      type: 'url',
+      description: 'Paste the publicly shared Google Drive link for the PDF here',
     }),
 
     defineField({
